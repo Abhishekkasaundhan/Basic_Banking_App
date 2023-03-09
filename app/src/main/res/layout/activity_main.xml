@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#B2DCD7"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/img"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+
+        android:text="Basic Banking App"
+        android:textColor="@color/colortextdark"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@id/imageView"/>
+
+    <TextView
+        android:id="@+id/hmpgmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+
+        android:fontFamily="sans-serif-smallcaps"
+
+        android:text="Welcome to Sparks Foundation's \n
+             Basic Banking App \nTransfer money between accounts."
+
+
+        android:textColor="@color/colortext"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnViewUsers"
+        android:layout_width="204dp"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:background="#4A899C"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:layout_marginTop="40dp"
+        android:text="View All Accounts"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/hmpgmsg"/>
+
+
+</RelativeLayout>

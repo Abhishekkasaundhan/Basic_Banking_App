@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B2DCD7">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bank"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="WELCOME TO SPARKS\n BASIC BANKING APP"
+        android:textAllCaps="false"
+        android:textColor="@color/colortext"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/designed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="150dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#00000f"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/app_name"
+            android:visibility="invisible"
+            />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abhishek"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#00000f"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/app_name"
+        android:layout_toEndOf="@+id/designed"
+        android:visibility="invisible"/>
+
+
+
+</RelativeLayout>
